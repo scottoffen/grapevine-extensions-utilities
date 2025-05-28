@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>10.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <NoWarn>$(NoWarn);NETSDK1138;CS1591</NoWarn>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageId>Grapevine.Extensions.Utilities</PackageId>
+    <Authors>Scott Offen</Authors>
+    <Copyright>© 2014 - $([System.DateTime]::Now.ToString('yyyy')) $(Authors)</Copyright>
+    <Description>Fast, unopinionated, embeddable, minimalist REST framework for .NET</Description>
+    <PackageTags>rest http api web router client server express json xml embedded</PackageTags>
+    <Version>0.0.1</Version>
+    <PackageIcon>grapevine.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <RepositoryUrl>https://github.com/scottoffen/grapevine-extensions-utilities</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/scottoffen/grapevine-extensions-utilities</PackageProjectUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="" />
+    <None Include="..\..\grapevine.png" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+</Project>
